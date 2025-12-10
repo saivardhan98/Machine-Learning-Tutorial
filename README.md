@@ -110,5 +110,3 @@ Overfitting versus underfitting
 Decision tree depth changes
 
 Feature importance changes
-
-Use this notebook as a template to apply decision trees on your own dataset.
