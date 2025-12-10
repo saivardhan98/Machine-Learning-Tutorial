@@ -1,5 +1,5 @@
-Decision Tree Classification – Tutorial & Implementation
-OVERVIEW
+**Decision Tree Classification – Tutorial & Implementation**
+**OVERVIEW**
 
 The following repository includes two complementary resources for both understanding and applying Decision Tree classifiers:
 
@@ -9,18 +9,16 @@ Decision Trees for Classification
 
 A practical implementation notebook of training, evaluation, and visualization based on Python (scikit-learn) of a decision tree model using the Breast Cancer Wisconsin Diagnostic Dataset.
 
-Notebook
-
 Its goal is to provide both a theoretical basis and a hands-on demonstration suitable for students, educators, and beginners in machine learning.
 
-Repository Contents
+**Repository Contents**
 Decision Trees for Classification.pdf	Includes a full written walkthrough of the theory, impurity measures (Entropy, Gini), Information Gain, Pruning, Hyperparameters, and the teaching tips.
 Decision_Tree_Tutorial.ipynb A Google Colab notebook that trains data loading, model training, accuracy evaluation, feature importance, confusion matrix visualization, and decision tree plotting.
 
 
 You may find it useful to draw a number of loop traces as you watch the animations.
 
-✔ Dataset
+**Dataset**
 
 Uses the Breast Cancer Wisconsin Diagnostic Dataset
 
@@ -28,7 +26,7 @@ Uses the Breast Cancer Wisconsin Diagnostic Dataset
 
 We are performing a binary classification: malignant versus benign.
 
-✔ Workflow Implemented
+**Workflow Implemented**
 
 Import necessary libraries: NumPy, Pandas, Matplotlib, scikit-learn
 
@@ -82,30 +80,30 @@ Explains important tuning parameters, including:
 
 max_depth, min_samples_split, min_samples_leaf, max_leaf_nodes, criterion, ccp_alpha (cost-complexity pruning)
 
-✂️ Pruning
+**Pruning**
 
 Early stopping (pre-pruning)
 
 Post-pruning (cost-complexity)
 
-Installation & Requirements
+**Installation & Requirements**
 
 
 Make sure you have Python 3.8+ and install the dependencies by running:
 
 pip install numpy pandas matplotlib scikit-learn
 
-To execute the notebook:
+**To execute the notebook:**
 
 jupyter notebook Decision_Tree_Tutorial.ipynb
 
-Overview ▶️ How to Use This Repository
+Overview How to Use This Repository
 
 Begin with the PDF tutorial to understand the concepts.
 
 Open the notebook to follow the example hands-on.
 
-Modify the hyperparameters to see:
+**Modify the hyperparameters to see:**
 
 Overfitting versus underfitting
 
@@ -115,7 +113,7 @@ Feature importance changes
 
 Use this notebook as a template to apply decision trees on your own dataset.
 
-References for notebook:
+**References for notebook:**
 1. UCI Machine Learning Repository – Breast Cancer Wisconsin (Diagnostic) Data Set: https://archive.ics.uci.edu/ml/datasets/breast+cancer+wisconsin+(diagnostic)
 
 2. scikit-learn Dataset Documentation – Breast Cancer: https://scikit-learn.org/stable/datasets/toy_dataset.html#breast-cancer-dataset
@@ -132,7 +130,7 @@ References for notebook:
 
 8. Matplotlib Documentation: https://matplotlib.org/stable/index.html
 
-References for Tutorial:
+**References for Tutorial:**
 1. J. R. Quinlan, "Decision trees and decision-making," IEEE Transactions on Systems, Man, and Cybernetics, vol. 20, no. 2, pp. 339–346, 1990.
 2. S. R. Safavian and D. Landgrebe, "A survey of decision tree classifier methodology," IEEE Transactions on Systems, Man, and Cybernetics, vol. 21, no. 3, pp. 660–674, 1991.
 3. S. B. Gelfand, C. S. Ravishankar and E. J. Delp, "An iterative growing and pruning algorithm for classification tree design," IEEE Transactions on Pattern Analysis and Machine Intelligence, vol. 13, no. 2, pp. 163–174, 1991.
