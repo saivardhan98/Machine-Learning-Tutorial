@@ -112,29 +112,3 @@ Decision tree depth changes
 Feature importance changes
 
 Use this notebook as a template to apply decision trees on your own dataset.
-
-**References for notebook:**
-1. UCI Machine Learning Repository – Breast Cancer Wisconsin (Diagnostic) Data Set: https://archive.ics.uci.edu/ml/datasets/breast+cancer+wisconsin+(diagnostic)
-
-2. scikit-learn Dataset Documentation – Breast Cancer: https://scikit-learn.org/stable/datasets/toy_dataset.html#breast-cancer-dataset
-
-3. Breiman, L., Friedman, J.H., Olshen, R.A., & Stone, C.J. (1984). Classification and Regression Trees (CART). Wadsworth Statistics/Probability Series.
-
-4. scikit-learn Documentation – DecisionTreeClassifier: https://scikit-learn.org/stable/modules/generated/sklearn.tree.DecisionTreeClassifier.html
-
-5. scikit-learn User Guide – Decision Trees: https://scikit-learn.org/stable/modules/tree.html
-
-6. scikit-learn Documentation – Confusion Matrix: https://scikit-learn.org/stable/modules/generated/sklearn.metrics.confusion_matrix.html
-
-7. scikit-learn Tree Plotting Documentation: https://scikit-learn.org/stable/modules/tree.html#tree-visualization
-
-8. Matplotlib Documentation: https://matplotlib.org/stable/index.html
-
-**References for Tutorial:**
-1. J. R. Quinlan, "Decision trees and decision-making," IEEE Transactions on Systems, Man, and Cybernetics, vol. 20, no. 2, pp. 339–346, 1990.
-2. S. R. Safavian and D. Landgrebe, "A survey of decision tree classifier methodology," IEEE Transactions on Systems, Man, and Cybernetics, vol. 21, no. 3, pp. 660–674, 1991.
-3. S. B. Gelfand, C. S. Ravishankar and E. J. Delp, "An iterative growing and pruning algorithm for classification tree design," IEEE Transactions on Pattern Analysis and Machine Intelligence, vol. 13, no. 2, pp. 163–174, 1991.
-4. F. Esposito, D. Malerba and G. Semeraro, "A comparative analysis of methods for pruning decision trees," IEEE Transactions on Pattern Analysis and Machine Intelligence, vol. 19, no. 5, pp. 476–491, 1997.
-5. B. Kim and D. A. Landgrebe, "Hierarchical classifier design in high-dimensional numerous class cases," IEEE Transactions on Geoscience and Remote Sensing, vol. 29, no. 4, pp. 518–528, 1991.
-6. T. K. Ho, "The random subspace method for constructing decision forests," IEEE Transactions on Pattern Analysis and Machine Intelligence, vol. 20, no. 8, pp. 832–844, 1998.
-7. L. Rokach and O. Maimon, "Top-down induction of decision trees classifiers — a survey," IEEE Transactions on Systems, Man, and Cybernetics, Part C: Applications and Reviews, vol. 35, no. 4, pp. 476–487, 2005.
